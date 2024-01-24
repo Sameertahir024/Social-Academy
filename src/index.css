@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Public Sans", sans-serif;
+  max-width: 1536px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 750px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+html {
+  font-size: 100%; /* You can adjust this as your base font size */
+}
+
+/* Define smaller font size for smaller screens */
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 100%; /* Decrease font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 70%;
+  }
+}
+.btn {
+  color: var(--Gray-White, #fff);
+  text-align: center;
+  /* Body/Regular/500 */
+  font-family: Public Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  border-radius: 8px;
+  background: var(--Primary-500, #20b486);
+  padding: 12px 24px 12px 24px; /* top: 10px, right: 15px, bottom: 20px, left: 25px */
+}
